@@ -161,6 +161,12 @@ pre {
   margin-bottom: 1rem;
   overflow: auto; }
 
+logo-image {
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+
 figure {
   margin: 0 0 1rem; }
 
@@ -8108,7 +8114,8 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important; }
   .container {
-    min-width: 992px !important; }
+    min-width: 992px !important;
+  }
   .navbar {
     display: none; }
   .badge {
