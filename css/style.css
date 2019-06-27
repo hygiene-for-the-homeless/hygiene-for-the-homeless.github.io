@@ -8555,6 +8555,23 @@ h1, h2, h3, h4, h5,
         background: #000000 !important;
         color: #fff; }
 
+.btn.btn-blue {
+  background: #297ac6 !important;
+  border: 1px solid #297ac6 !important;
+  color: #fff !important; }
+.btn.btn-blue:hover {
+  border: 1px solid #000000 !important;
+  background: #000000 !important;
+  color: #fff; }
+.btn.btn-blue.btn-outline-blue {
+  border: 1px solid #297ac6;
+  background: transparent;
+  color: #000000; }
+.btn.btn-blue.btn-outline-blue:hover {
+  border: 1px solid transparent;
+  background: #000000 !important;
+  color: #fff; }
+
 .services-section {
   padding: 0; }
 
@@ -8579,15 +8596,16 @@ h1, h2, h3, h4, h5,
     font-weight: 900; }
   @media (min-width: 992px) {
     .services.active {
-      background: #ffb400;
-      color: #000000; }
-      .services.active .icon span {
-        color: #fff; } }
-  .services:hover, .services:focus {
-    background: #ffb400;
-    color: #000000; }
-    .services:hover .icon span, .services:focus .icon span {
+      background: #297ac6;
       color: #fff; }
+      .services.active .icon span {
+
+      } }
+  .services:hover, .services:focus {
+    background: #297ac6;
+    color: #ffffff; }
+    .services:hover .icon span, .services:focus .icon span {
+      color: #ffffff; }
 
 .aside-stretch {
   background: #ffc333; }
