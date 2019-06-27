@@ -6773,6 +6773,21 @@ button.bg-dark:focus {
 .py-5 {
   padding-bottom: 3rem !important; }
 
+.pb-6 {
+  padding-bottom: 4rem !important; }
+
+.pb-7 {
+  padding-bottom: 5rem !important; }
+
+.pb-8 {
+  padding-bottom: 6rem !important; }
+
+.pb-9 {
+  padding-bottom: 7rem !important; }
+
+.pb-10 {
+  padding-bottom: 8rem !important; }
+
 .pl-5,
 .px-5 {
   padding-left: 3rem !important; }
@@ -9563,4 +9578,8 @@ textarea.form-control {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.horizontal-center{
+  text-align: center;
 }
